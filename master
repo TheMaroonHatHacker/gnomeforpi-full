@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+
+echo "Installing GNOME For Pi"
+sleep 2
+
+echo "Removing Raspberry Pi OS Lite"
+sleep 2
+
+bash purge-pi-desktop
+wait
+
+echo "Downloading GNOME For Pi scripts"
+
+git clone https://github.com/TerraGitHuB/gnomeforpi.git
+wait
+cd gnomeforpi
+wait
+
+echo "Running Install script"
+sleep 2
+
+bash gnomeforpi-install
+wait
