@@ -19,5 +19,5 @@ wait
 echo "Running Install script"
 sleep 2
 
-bash gnomeforpi-install
+bash gnomeforpi-install --lite
 wait
