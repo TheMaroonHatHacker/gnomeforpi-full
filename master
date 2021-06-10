@@ -3,7 +3,7 @@
 echo "Installing GNOME For Pi"
 sleep 2
 
-echo "Removing Raspberry Pi OS Lite"
+echo "Removing Raspberry Pi OS Desktop"
 sleep 2
 
 bash purge-pi-desktop
