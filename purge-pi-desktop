@@ -6,5 +6,5 @@ echo "Removing LXDE and all files related"
 apt remove lxde* lxpanel pipanel openbox* obconf lightdm --purge -y
 wait
 echo "Removing any undepended packages"
-apt autoremove
+apt autoremove -y
 wait
